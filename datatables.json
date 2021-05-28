@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/fixedColumns.bulma.js",
+        "js/fixedColumns.bulma.min.js"
+    ],
+    "css": [
+        "css/fixedColumns.bulma.css",
+        "css/fixedColumns.bulma.min.css"
+    ],
+    "types": [
+        "types/fixedColumns.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/FixedColumns",
+    "last-tag": "3.3.2"
+}

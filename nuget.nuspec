@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>3.3.2</version>
+        <id>datatables.net-fixedcolumns-bm</id>
+        <description>This is FixedColumns for DataTables with styling for [Bulma](https://bulma.io/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-FixedColumns-Bulma.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>FixedColumns  Bulma  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-fixedcolumns" version=">=3.3.2"/>
+            <dependency id="datatables.net-bm" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/fixedColumns.bulma.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/fixedColumns.bulma.min.js" target="content\Scripts"/>
+        <file src="js/fixedColumns.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/fixedColumns.bulma.css" target="content\Content"/>
+        <file src="css/fixedColumns.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/fixedColumns.bulma.min.css" target="content\Content"/>
+        <file src="css/fixedColumns.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/fixedColumns.bulma.d.ts" target="content\Scripts"/>
+        <file src="types/fixedColumns.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+
