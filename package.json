@@ -3,6 +3,7 @@
     "description": "FixedColumns for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/fixedColumns.bulma.js",
     "style": "css/fixedColumns.bulma.css",
+    "types": "./types/fixedColumns.bulma.d.ts",
     "version": "3.3.2",
     "files": [
         "css/**/*.css",
