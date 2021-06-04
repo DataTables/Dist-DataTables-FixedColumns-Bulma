@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bulma.js",
     "style": "css/fixedColumns.bulma.css",
     "types": "./types/fixedColumns.bulma.d.ts",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -19,8 +19,6 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=3.3.2",
-        "datatables.net-bm": ">=1.10.24",
         "jquery": ">=1.7"
     },
     "moduleType": [
