@@ -1,9 +1,7 @@
-table.dataTable td, table.dataTable th {
-  background-color: white;
-}
-table.dataTable .dtfc-fixed-left,
-table.dataTable .dtfc-fixed-right {
+table.dataTable tr > .dtfc-fixed-left,
+table.dataTable tr > .dtfc-fixed-right {
   z-index: 1;
+  background-color: white;
 }
 
 div.dtfc-right-top-blocker {
