@@ -2,12 +2,14 @@
     "name": "datatables.net-fixedcolumns-bm",
     "description": "FixedColumns for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/fixedColumns.bulma.js",
+    "module": "js/fixedColumns.bulma.mjs",
     "style": "css/fixedColumns.bulma.css",
     "types": "./types/fixedColumns.bulma.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
