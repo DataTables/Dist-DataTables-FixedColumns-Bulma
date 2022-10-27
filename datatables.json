@@ -10,7 +10,8 @@
         "css/fixedColumns.bulma.min.css"
     ],
     "types": [
-        "types/fixedColumns.bulma.d.ts"
+        "types/fixedColumns.bulma.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/FixedColumns",
     "last-tag": "4.1.0"

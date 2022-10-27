@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bulma.js",
     "module": "js/fixedColumns.bulma.mjs",
     "style": "css/fixedColumns.bulma.css",
-    "types": "./types/fixedColumns.bulma.d.ts",
+    "types": "./types/types.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
