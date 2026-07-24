@@ -5,7 +5,7 @@
     "module": "js/fixedColumns.bulma.mjs",
     "style": "css/fixedColumns.bulma.css",
     "types": "./types/fixedColumns.bulma.d.ts",
-    "version": "6.0.0-beta.1",
+    "version": "6.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.0.0-beta.1",
-        "datatables.net-bm": "3.0.0-0"
+        "datatables.net-fixedcolumns": "6.0.0",
+        "datatables.net-bm": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
