@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedcolumns-bm",
     "description": "FixedColumns for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/fixedColumns.bulma.js",
-    "module": "js/fixedColumns.bulma.mjs",
-    "style": "css/fixedColumns.bulma.css",
+    "main": "./js/fixedColumns.bulma.js",
+    "module": "./js/fixedColumns.bulma.mjs",
+    "style": "./css/fixedColumns.bulma.css",
     "types": "./types/fixedColumns.bulma.d.ts",
     "version": "6.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedColumns",
@@ -34,5 +33,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedColumns.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedColumns.bulma.d.ts",
+            "import": "./js/fixedColumns.bulma.mjs",
+            "default": "./js/fixedColumns.bulma.mjs",
+            "require": "./js/fixedColumns.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedColumns.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
