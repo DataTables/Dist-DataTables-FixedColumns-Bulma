@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedColumns.bulma.d.ts",
+            "style": "./css/fixedColumns.bulma.css",
             "import": "./js/fixedColumns.bulma.mjs",
-            "default": "./js/fixedColumns.bulma.mjs",
-            "require": "./js/fixedColumns.bulma.js"
+            "require": "./js/fixedColumns.bulma.js",
+            "default": "./js/fixedColumns.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
