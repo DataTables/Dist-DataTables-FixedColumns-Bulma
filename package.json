@@ -5,7 +5,7 @@
     "module": "./js/fixedColumns.bulma.mjs",
     "style": "./css/fixedColumns.bulma.css",
     "types": "./types/fixedColumns.bulma.d.ts",
-    "version": "6.1.0",
+    "version": "6.1.1",
     "files": [
         "js",
         "css",
@@ -20,7 +20,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": "6.1.0",
+        "datatables.net-fixedcolumns": "6.1.1",
         "datatables.net-bm": "^3.1"
     },
     "author": {
